@@ -202,3 +202,15 @@ input, select{
     grid-column-end:3;
    
 }
+
+/*socailmedia*/
+socialmedia{
+    font-size: 24pt;
+    position: fixed;
+    right: 455px;
+    top: 110px;
+    
+}
+.socialcolor{
+    color: #F9F9CD;
+}
