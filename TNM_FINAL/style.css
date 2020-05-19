@@ -1,0 +1,216 @@
+/*HomePage*/
+
+body {
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 1rem;
+    color: #F9F9CD;
+    line-height: 1.286rem;
+    background-color: white;
+    
+}
+footer{
+    font-size: 0.71428rem;
+    color:#F9F9CD;
+    text-decoration: none;
+    background-color: black;
+    height: 3.214rem;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1.607rem;
+    }
+header{
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: black;
+    height: 6.964rem;
+    width: 100%;
+    }
+h1{
+    font-family: 'Helvetica', sans-serif ;
+    font-size: 3.571rem;
+}
+nav a {
+    color: #F9F9CD;
+    text-decoration: none;
+    margin-right:10px;
+}
+main{
+    background-color: #131313;
+    
+}
+aside  {
+    color: #F9F9CD;
+    text-decoration: none;
+}
+#splash{
+    background-image: url(inside.png);
+    
+    height:16.0714rem;
+}
+
+.floatleft {
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 30px;}
+#container{
+    width: 1000px;
+    margin:auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+#splash {
+grid-column-start:1;
+grid-column-end:3;
+padding-top: 175px;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 25px;
+    text-align:center;
+}
+
+#splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.full{grid-column-start:1;
+    grid-column-end:3;}
+article{padding: 30px;}
+
+contact{
+    padding-left: 20px;
+    padding-top: 10px;}
+
+
+
+/*LocationPage*/
+
+#location{
+    background-image: url(map.png);
+    
+    height:20.0714rem;
+    
+    grid-column-start:1;
+    grid-column-end:3;
+    padding-top: 175px;
+}
+locamain{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #131313;
+    color: white;}
+
+.center{
+    text-align: center;
+    justify-content: center;
+}
+ .locafloatleft {
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 30px;
+padding-top: 20px;}   
+.locanav{
+    text-decoration:none;
+    color: #F9F9CD;
+}
+a:hover {
+  color: orange;
+}
+
+
+/*ReservationPage*/
+
+resermain{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #131313;
+    padding: 50px;
+    padding-top: 130px;
+    padding-left: 30px;
+}
+.container-time{
+    background-color: #131313;
+    
+    padding: 50px;
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.286rem;
+    padding-top: 80px;
+    padding-left: 80px;
+    /*outline: 1px dashed #F9F9CD;
+    outline-offset: -30px;*/}
+
+.container-form{
+    background-color: #131313;
+    padding: 80px;
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 1rem;
+    color: white;
+    line-height: .5rem;
+}
+.heading{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+}
+
+form{
+    display: grid;
+    grid-row-gap: 20px;
+}
+.form-field{
+    display: flex;
+    justify-content: space-between;
+}
+form p{
+    font-weight: 600;
+}
+
+input, select{
+    padding-left: 10px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border:none;  
+    font-size: 18px;
+    border-radius: 100px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -ms-border-radius:100px;
+    -o-border-radius:100px;
+    box-shadow: 2px 0px 10px white;
+    
+}
+.resernav{
+    text-decoration:none;
+    color: white;
+}
+
+.reserimg{
+    
+    grid-column-start:1;
+    grid-column-end:3;
+   
+}
+
+/*socailmedia*/
+socialmedia{
+    font-size: 24pt;
+    position: fixed;
+    right: 455px;
+    top: 110px;
+    
+}
+.socialcolor{
+    color: #F9F9CD;
+}
